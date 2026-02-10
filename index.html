@@ -3,236 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <title>Alberto Cruz</title>
-    <meta name="description" content="Full Stack Web Developer" />
+    <meta name="description" content="Alberto Cruz — Software Engineer" />
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="static/css/style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <script src="static/js/core.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #fafafa;
+        color: #333;
+        text-align: center;
+        padding: 2rem;
+      }
+      .name {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+      .accent {
+        color: #1abc9c;
+      }
+      .role {
+        font-size: 1.1rem;
+        color: #777;
+        margin-top: 0.4rem;
+      }
+      .wip {
+        margin-top: 2rem;
+        font-size: 0.95rem;
+        color: #aaa;
+      }
+    </style>
   </head>
   <body>
-    <header class="Header">
-      <nav class="Nav">
-        <ul class="Nav-list">
-          <li class="Nav-item">
-            <a class="Nav-link" href="#about">About me</a>
-          </li>
-          <li class="Nav-item">
-            <a class="Nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="Nav-item"><a class="Nav-link" href="#work">Work</a></li>
-          <li class="Nav-item">
-            <a class="Nav-link" href="#education">Education</a>
-          </li>
-          <li class="Nav-item">
-            <a class="Nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <h1 class="Header-title">Alberto <span class="green-text">Cruz</span></h1>
-      <div class="Header-description">Software Engineer</div>
-    </header>
-    <figure class="Avatar">
-      <img class="Avatar-image" src="static/images/avatar.jpg" alt="" />
-    </figure>
-    <section class="Section" id="about">
-      <h2 class="Section-title">ABOUT <span class="green-text">ME</span></h2>
-      <p class="Introduction">A BRIEF INTRODUCTION</p>
-      <p class="justify">
-        I'm a full-stack web developer from Buenos Aires, Argentina. Intrested
-        in technology and its impact on the society. Technology is something
-        really important in my life, I define myself as a Full-Time Techie.
-      </p>
-      <p class="justify">
-        I also like to know about new ways of solving problems, or new stuff
-        that can be made by programming. I'm always studying.
-      </p>
-      <p class="justify">
-        I love meeting people and start or collaborate in projects. Getting
-        involved is the only way to really learn.
-      </p>
-      <p class="justify">
-        Apart from technology and software development, travelling is what I
-        like the most. I love to meet new people, visit new places and learn
-        from different cultures.
-      </p>
-    </section>
-    <section class="Section" id="skills">
-      <h2 class="Section-title">MY <span class="green-text">SKILLS</span></h2>
-      <p class="Introduction">WHAT I'VE LEARNED AND LOVE</p>
-      <ul class="Skill-list">
-        <li class="Skill-item">C#</li>
-        <li class="Skill-item">.NET Core</li>
-        <li class="Skill-item">WebAPI</li>
-        <li class="Skill-item">LINQ</li>
-        <li class="Skill-item">Microsoft SQL Server</li>
-        <li class="Skill-item">Postgres</li>
-        <li class="Skill-item">AWS</li>
-        <li class="Skill-item">Docker</li>
-        <li class="Skill-item">Git</li>
-        <li class="Skill-item">HTML5</li>
-        <li class="Skill-item">CSS3</li>
-        <li class="Skill-item">React</li>
-        <li class="Skill-item">JavaScript</li>
-        <li class="Skill-item">Node.js</li>
-        <li class="Skill-item">Scrum</li>
-        <li class="Skill-item">Object-Oriented Programming</li>
-        <li class="Skill-item">Design Patterns</li>
-        <li class="Skill-item">Python</li>
-      </ul>
-    </section>
-    <section class="Section" id="work">
-      <h2 class="Section-title">
-        PREVIOUS <span class="green-text">WORK</span>
-      </h2>
-      <p class="Introduction">WHERE I'VE WORKED</p>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">2012</span>
-            <span class="green-text Work-until">2014</span>
-          </p>
-          <p class="Work-company green-text">PRODTECH</p>
-          <h3 class="Work-title">JUNIOR DEVELOPER</h3>
-        </div>
-        <p class="Work-description">
-          We were developing applications oriented to logistics and supply chain
-          in order to improve and optimize the process. I used .NET Framework,
-          HTML, CSS and SQL Server.
-        </p>
-      </article>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">JAN 2012</span>
-            <span class="green-text Work-until">OCT 2014</span>
-          </p>
-          <p class="Work-company green-text">PRODTECH</p>
-          <h3 class="Work-title">HELP DESK OPERATOR</h3>
-        </div>
-        <p class="Work-description">
-          We helped the user to use the solutions. We recieved user's doubts and
-          requests through a custom CRM. I used SQL Server to obtain data in
-          order to assist the users.
-        </p>
-      </article>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">OCT 2014</span>
-            <span class="green-text Work-until">DEC 2016</span>
-          </p>
-          <p class="Work-company green-text">HEXACTA</p>
-          <h3 class="Work-title">SOFTWARE DEVELOPER</h3>
-        </div>
-        <p class="Work-description">
-          Execute technical design and software development tasks that were
-          assigned to me. During my time in this position, I took part in a team
-          developing and maintaining an invoicing system for Bolloré Africa
-          Logistics.
-        </p>
-      </article>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">JAN 2017</span>
-            <span class="green-text Work-until">DEC 2018</span>
-          </p>
-          <p class="Work-company green-text">HEXACTA</p>
-          <h3 class="Work-title">SR. SOFTWARE DEVELOPER</h3>
-        </div>
-        <p class="Work-description">
-          In addition to the responsibilities of my previous position, I took
-          tasks of higher complexity in terms of tech and business. I worked
-          mostly as part of the development team of a client who has a
-          management system used by 500+ law firms all over the USA and Canada.
-          Among several challenges that I faced, I had to migrate databases from
-          the client's on-premises servers to Amazon RDS as well as documents
-          from an on-premises MongoDB to Amazon S3.
-        </p>
-      </article>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">JAN 2019</span>
-            <span class="green-text Work-until">TODAY</span>
-          </p>
-          <p class="Work-company green-text">HEXACTA</p>
-          <h3 class="Work-title">SOFTWARE ARCHITECT</h3>
-        </div>
-        <p class="Work-description">
-          I am part of the client's engineering team, leading our development
-          effort in Buenos Aires. I am in charge of a 5 people team. My tasks
-          are related to the development of complex modules in a Saas
-          application.
-        </p>
-      </article>
-    </section>
-    <section class="Section" id="education">
-      <h2 class="Section-title">
-        MY <span class="green-text">EDUCATION</span>
-      </h2>
-      <p class="Introduction">WHERE I'VE STUDIED</p>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">2011</span>
-            <span class="green-text Work-until">2013</span>
-          </p>
-          <p class="Work-company green-text">
-            Universidad Tecnológica Nacional
-          </p>
-          <h3 class="Work-title">Técnico Superior en Programación</h3>
-        </div>
-      </article>
-      <article class="Work-item">
-        <div class="Work-info">
-          <p class="Work-date">
-            <span class="Work-since">2016</span>
-            <span class="green-text Work-until">2020</span>
-          </p>
-          <p class="Work-company green-text">Universidad De Palermo</p>
-          <h3 class="Work-title">Ingeniero en Informática</h3>
-        </div>
-      </article>
-    </section>
-    <section class="Section" id="contact">
-      <h2 class="Section-title">CONTACT <span class="green-text">ME</span></h2>
-      <p class="Introduction">HAVE AN IDEA? LET'S MAKE IT HAPPEN!</p>
-      <!--<form action="email">
-			<input type="text" placeholder="Name">
-			<input type="text" placeholder="Email">
-			<textarea name="text" id="text" placeholder="Message" cols="30" rows="10"></textarea>
-		</form>-->
-      <ul class="Contact-list">
-        <li class="Contact-item">
-          <span class="icon-mail Contact-icon"></span>
-          <a class="Contact-link" href="#">cruz.alberto92@gmail.com</a>
-        </li>
-        <li class="Contact-item">
-          <span class="icon-github Contact-icon"></span>
-          <a href="http://www.github.com/albertocruzdg" class="Contact-link"
-            >albertocruzdg</a
-          >
-        </li>
-        <li class="Contact-item">
-          <span class="icon-twitter Contact-icon"></span>
-          <a href="http://www.twitter.com/albertocruzdg" class="Contact-link"
-            >@albertocruzdg</a
-          >
-        </li>
-      </ul>
-    </section>
-    <footer class="Footer">
-      <p class="Footer-text">Created by Alberto Cruz</p>
-    </footer>
+    <main>
+      <h1 class="name">Alberto <span class="accent">Cruz</span></h1>
+      <p class="role">Software Engineer</p>
+      <p class="wip">This site is a work in progress — stay tuned.</p>
+    </main>
   </body>
 </html>
